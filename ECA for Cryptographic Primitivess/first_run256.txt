@@ -1,0 +1,28 @@
+---------KEY GENERATION---------
+RSA (AVG on 100 runs):  0.176729918000201 seconds
+DSA (AVG on 100 runs):  1.608165252999679 seconds
+ECDSA (AVG on 100 runs):  9.857699966232758e-05 seconds
+HMAC-SHA2 (AVG on 100 runs):  6.670002767350525e-07 seconds
+HMAC-SHA3 (AVG on 100 runs):  3.4000004234258085e-07 seconds
+---------SIGNATURE GENERATION---------
+RSA (AVG on 100 runs): 0.0019453800001065246 seconds
+DSA (AVG on 100 runs): 0.0008504929995979182 seconds
+ECDSA (AVG on 100 runs): 0.00016012900043278931 seconds
+HMAC-SHA2 (AVG on 100 runs): 0.00011281100021733437 seconds
+HMAC-SHA3 (AVG on 100 runs): 0.00011348699968948495 seconds
+---------SIGNATURE VERIFICATION---------
+RSA (AVG on 100 runs): 0.0001950709995435318 seconds
+DSA (AVG on 100 runs): 0.0007994919997145189 seconds
+ECDSA (AVG on 100 runs): 0.00019340000006195623 seconds
+HMAC-SHA2 (AVG on 100 runs): 0.00011000200007401872 seconds
+HMAC-SHA3 (AVG on 100 runs): 0.0001134360001742607 seconds
+
+Standard Deviation for RSA Key Generation: 0.21333093200058362 seconds
+Standard Deviation for RSA Signature Generation: 0.001526543866344295 seconds
+Standard Deviation for RSA Signature Verification: 0.00010333257311837157 seconds
+Standard Deviation for DSA Key Generation: 0.8364364863074402 seconds
+Standard Deviation for DSA Signature Generation: 0.00022989172839056368 seconds
+Standard Deviation for DSA Signature Verification: 0.00022427659292420974 seconds
+Standard Deviation for ECDSA Key Generation: 0.0010477422163794052 seconds
+Standard Deviation for ECDSA Signature Generation: 0.0010965751141866075 seconds
+Standard Deviation for ECDSA Signature Verification: 0.0008453870863564144 seconds
